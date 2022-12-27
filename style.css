@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #FAF9F6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    justify-content: space-between;
+    margin: 2rem 25rem;
+}
+
+.grid-1 img{
+    width: 400px;
+}
+
+.grid-2 img{
+    width: 160px;
+    margin: 3.5rem 5.5rem 1rem;
+}
+
+.grid-2{
+    margin: 1rem 0 0 1rem;
+    width: 350px;
+    height: 400px;
+    border:1px solid #ccc;
+    background-color: #fff;
+}
+
+input[type="text"]{
+    width: 17rem;
+    height: 2.3rem;
+    padding: 0.5rem;
+    color:#8e8e8e;
+    background: #F7F7F5;
+    border:1px solid #ccc;
+    font-size: 12px;
+}
+
+form{
+    margin:0 2rem;
+    line-height: 45px;
+}
+
+.btn{
+    background: rgb(162, 216, 237);
+    color:#fff;
+    width: 95%;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.or{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 15px;
+	margin: 15px 0 20px;
+    color:#8e8e8e;
+}
+
+.line{
+    width: 100px;
+	height: 1px;
+	background: #dbdbdb;
+}
+
+.fb{
+    justify-content: center;
+    text-align: center;
+    color:#385185;
+    font-weight: 500;
+    font-size: 14px;
+}
+.fb a{
+    font-size: 12px;
+    text-decoration: none;
+    color:#385185;
+    font-weight: 300;
+}
+
+.sign-up{
+    text-align: center;
+    padding: 20px;
+    margin-top: 1rem;
+    width: 350px;
+    height: 60px;
+    border:1px solid #ccc;
+    background-color: #fff;
+    font-weight: 100;
+}
+
+.sign-up a{
+    text-decoration: none;
+    color:#0095f6;
+    font-weight: 400;
+}
+
+.app-store{
+    margin: 1.2rem;
+    text-align: center;
+}
+
+.app-store img{
+    margin: 1rem;
+    width: 250px;
+}
+
+ .footer{
+	width: 1000px;
+	margin: -2rem 25rem;
+	padding: 40px 0;
+	justify-content: space-between;
+}
+
+
+
+.footer .links ul li{
+    display: inline-block;
+	margin-right: 15px;
+}
+
+.footer .links ul li a{
+    color: #8e8e8e;
+	font-size: 12px;
+    text-decoration: none;
+}
+
+.footer .copyright{
+    margin: 1rem 0 0 20rem;
+	color: #8e8e8e;	
+    font-size: 12px;
+}
